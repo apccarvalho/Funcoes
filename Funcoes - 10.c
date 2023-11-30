@@ -14,10 +14,10 @@ void pares(int a, int b){
 
     for (i = a; i < b-1; i++){
         if (vet[i] % 2 == 0){
-            s += vet[i]
-            printf("%d ", s);
+            s += vet[i];
         }
     } 
+     printf("%d ", s);
 }
 
 int main(){
