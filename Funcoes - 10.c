@@ -6,7 +6,7 @@ lidos. */
 
 void pares(int a, int b){
 
-    int i, vet[b];
+    int i, vet[b], s = 0;
     
     for (i = a; i < b; i++){
         vet[i] = i+1;
@@ -14,7 +14,8 @@ void pares(int a, int b){
 
     for (i = a; i < b-1; i++){
         if (vet[i] % 2 == 0){
-            printf("%d ", vet[i]);
+            s += vet[i]
+            printf("%d ", s);
         }
     } 
 }
